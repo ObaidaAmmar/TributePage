@@ -1,3 +1,3 @@
 # TributePage
 
-Tribute Page simple HTML CSS Project
+Responsive Tribute Page simple HTML CSS Project
