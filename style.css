@@ -1,0 +1,66 @@
+body {
+  font-family: system-ui;
+  color: black;
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+
+main{
+  background-color: #E1EAF5;
+}
+
+.title-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+#title, #title-desc{
+  margin: auto auto;
+}
+
+#img-div{
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  gap: space-between;
+}
+
+img{
+  justify-content: center;
+  align-self: center;
+  max-width: 100%;
+  width:auto;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#img-caption{
+  align-self: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#tribute-info{
+  padding: 10px 30vw;
+  line-height: 2vw;
+}
+
+#tribute-info h2{
+  text-align: center;
+}
+
+#foot{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 574px) and (max-width: 1024px) {
+
+  #tribute-info{
+    line-height: 3.5vw;
+  }
+  
+}
